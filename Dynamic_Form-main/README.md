@@ -1,16 +1,52 @@
-# React + Vite
+Dynamic Form Builder (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic and customizable form builder built using React + Vite. Users can create forms, add multiple field types, preview forms in real-time, save forms to LocalStorage, and manage form submissions easily.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📝 Create custom forms
 
-## React Compiler
+➕ Add multiple field types (Text, Textarea, Select, etc.)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👀 Live form preview
 
-## Expanding the ESLint configuration
+💾 Save forms in LocalStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📤 Submit form entries
+
+📑 View all entries submitted for each form
+
+🎨 Clean & modern UI
+
+🛠️ Tech Stack
+
+     React (Vite)
+     React Router DOM
+     LocalStorage
+     CSS
+
+📦 Installation & Setup 
+
+1️⃣ Clone the repository
+    git clone https://github.com/nan-11Yadav/Dynamic_Form.git 
+    cd Dynamic_Form
+
+2️⃣ Install dependencies 
+    npm install
+
+3️⃣ Start the development server 
+    npm run dev
+
+4️⃣ Open in browser
+    http://localhost:5173
+
+📁 Folder Structure 
+    src/ 
+    │── components/ # Reusable UI components 
+    │── pages/ # Application pages (Home, Builder, Preview, etc.) 
+    │── utils/ # Helper functions 
+    │── App.jsx # Root component with routing │
+    |── index.css # Global styles
+
+
+
